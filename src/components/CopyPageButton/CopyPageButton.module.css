@@ -14,14 +14,15 @@
 /* Button container styles */
 .container {
   position: relative;
-  display: none;
+  display: inline-block;
+  visibility: hidden;
 }
 
 .h1Wrapper .container {
   position: absolute;
   top: 0;
   right: 0;
-  display: inline-block;
+  visibility: visible;
 }
 
 .mainButton {
