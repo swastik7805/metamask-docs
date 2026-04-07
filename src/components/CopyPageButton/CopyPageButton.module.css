@@ -25,6 +25,10 @@
   visibility: visible;
 }
 
+.standalone {
+  visibility: visible;
+}
+
 .mainButton {
   display: flex;
   align-items: center;
