@@ -20,7 +20,6 @@ import AuthModal, {
   WALLET_LINK_TYPE,
 } from '@site/src/components/AuthLogin/AuthModal'
 import { DocSearchSidepanel } from '@docsearch/react/sidepanel';
-import '@docsearch/css/dist/style.css';
 import '@docsearch/css/dist/sidepanel.css';
 
 interface Project {
