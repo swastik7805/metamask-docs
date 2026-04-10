@@ -316,7 +316,7 @@ export default function Root({ children }: { children: ReactElement }) {
               translations: {
                 newConversationScreen: {
                   introductionText:
-                    'Have a question about MetaMask? Ask here and get an answer from the developer docs.',
+                    'Have a question about integrating with MetaMask? Ask here and get an answer from the developer docs.',
                 },
               },
             }}
