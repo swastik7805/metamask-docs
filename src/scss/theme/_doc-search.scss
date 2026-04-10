@@ -499,9 +499,7 @@ div[class*="DocSearch-Sidepanel"] {
     color: #e3e3e3 !important;
   }
  
-  /* Headers */
-  [class*="Header"],
-  [class*="header"] {
+  .DocSearch-Sidepanel-Header {
     background-color: #1b1b1d !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
     color: #e3e3e3 !important;
