@@ -701,51 +701,6 @@
       "permanent": true
     },
     {
-      "source": "/embedded-wallets/sdk/ios/usage/ed25519Key",
-      "destination": "/embedded-wallets/sdk/ios/usage/ed25519-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/privKey",
-      "destination": "/embedded-wallets/sdk/ios/usage/private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/userInfo",
-      "destination": "/embedded-wallets/sdk/ios/usage/user-info",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/getIdentityToken",
-      "destination": "/embedded-wallets/sdk/ios/usage/get-identity-token",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/showCheckout",
-      "destination": "/embedded-wallets/sdk/ios/usage/show-checkout",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/showSwap",
-      "destination": "/embedded-wallets/sdk/ios/usage/show-swap",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/showWalletConnectScanner",
-      "destination": "/embedded-wallets/sdk/ios/usage/show-wallet-connect-scanner",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/showWalletUI",
-      "destination": "/embedded-wallets/sdk/ios/usage/show-wallet-ui",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/ios/usage/switchChain",
-      "destination": "/embedded-wallets/sdk/ios/usage/switch-chain",
-      "permanent": true
-    },
-    {
       "source": "/embedded-wallets/sdk/android/usage/enableMFA",
       "destination": "/embedded-wallets/sdk/android/usage/enable-mfa",
       "permanent": true
@@ -773,51 +728,6 @@
     {
       "source": "/embedded-wallets/sdk/android/usage/manageMFA",
       "destination": "/embedded-wallets/sdk/android/usage/manage-mfa",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/ed25519Key",
-      "destination": "/embedded-wallets/sdk/android/usage/ed25519-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/privKey",
-      "destination": "/embedded-wallets/sdk/android/usage/private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/userInfo",
-      "destination": "/embedded-wallets/sdk/android/usage/user-info",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/getIdentityToken",
-      "destination": "/embedded-wallets/sdk/android/usage/get-identity-token",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/showCheckout",
-      "destination": "/embedded-wallets/sdk/android/usage/show-checkout",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/showSwap",
-      "destination": "/embedded-wallets/sdk/android/usage/show-swap",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/showWalletConnectScanner",
-      "destination": "/embedded-wallets/sdk/android/usage/show-wallet-connect-scanner",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/showWalletUI",
-      "destination": "/embedded-wallets/sdk/android/usage/show-wallet-ui",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/android/usage/switchChain",
-      "destination": "/embedded-wallets/sdk/android/usage/switch-chain",
       "permanent": true
     },
     {
@@ -851,78 +761,13 @@
       "permanent": true
     },
     {
-      "source": "/embedded-wallets/sdk/flutter/usage/ed25519Key",
-      "destination": "/embedded-wallets/sdk/flutter/usage/ed25519-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/privKey",
-      "destination": "/embedded-wallets/sdk/flutter/usage/private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/userInfo",
-      "destination": "/embedded-wallets/sdk/flutter/usage/user-info",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/getIdentityToken",
-      "destination": "/embedded-wallets/sdk/flutter/usage/get-identity-token",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/showCheckout",
-      "destination": "/embedded-wallets/sdk/flutter/usage/show-checkout",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/showSwap",
-      "destination": "/embedded-wallets/sdk/flutter/usage/show-swap",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/showWalletConnectScanner",
-      "destination": "/embedded-wallets/sdk/flutter/usage/show-wallet-connect-scanner",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/showWalletUI",
-      "destination": "/embedded-wallets/sdk/flutter/usage/show-wallet-ui",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/flutter/usage/switchChain",
-      "destination": "/embedded-wallets/sdk/flutter/usage/switch-chain",
-      "permanent": true
-    },
-    {
       "source": "/embedded-wallets/sdk/react-native/usage/enableMFA",
       "destination": "/embedded-wallets/sdk/react-native/usage/enable-mfa",
       "permanent": true
     },
     {
-      "source": "/embedded-wallets/sdk/react-native/usage/getEd25519PrivKey",
-      "destination": "/embedded-wallets/sdk/react-native/usage/get-ed25519-private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/getPrivKey",
-      "destination": "/embedded-wallets/sdk/react-native/usage/get-private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/getUserInfo",
-      "destination": "/embedded-wallets/sdk/react-native/usage/get-user-info",
-      "permanent": true
-    },
-    {
       "source": "/embedded-wallets/sdk/react-native/usage/launchWalletServices",
       "destination": "/embedded-wallets/sdk/react-native/usage/launch-wallet-services",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/manageMFA",
-      "destination": "/embedded-wallets/sdk/react-native/usage/manage-mfa",
       "permanent": true
     },
     {
@@ -938,36 +783,6 @@
     {
       "source": "/embedded-wallets/sdk/react-native/usage/userInfo",
       "destination": "/embedded-wallets/sdk/react-native/usage/user-info",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/getIdentityToken",
-      "destination": "/embedded-wallets/sdk/react-native/usage/get-identity-token",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/showCheckout",
-      "destination": "/embedded-wallets/sdk/react-native/usage/show-checkout",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/showSwap",
-      "destination": "/embedded-wallets/sdk/react-native/usage/show-swap",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/showWalletConnectScanner",
-      "destination": "/embedded-wallets/sdk/react-native/usage/show-wallet-connect-scanner",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/showWalletUI",
-      "destination": "/embedded-wallets/sdk/react-native/usage/show-wallet-ui",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/react-native/usage/switchChain",
-      "destination": "/embedded-wallets/sdk/react-native/usage/switch-chain",
       "permanent": true
     },
     {
@@ -996,61 +811,6 @@
       "permanent": true
     },
     {
-      "source": "/embedded-wallets/sdk/unity/usage/manageMFA",
-      "destination": "/embedded-wallets/sdk/unity/usage/manage-mfa",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/ed25519Key",
-      "destination": "/embedded-wallets/sdk/unity/usage/ed25519-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/privKey",
-      "destination": "/embedded-wallets/sdk/unity/usage/private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/userInfo",
-      "destination": "/embedded-wallets/sdk/unity/usage/user-info",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/getIdentityToken",
-      "destination": "/embedded-wallets/sdk/unity/usage/get-identity-token",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/showCheckout",
-      "destination": "/embedded-wallets/sdk/unity/usage/show-checkout",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/showSwap",
-      "destination": "/embedded-wallets/sdk/unity/usage/show-swap",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/showWalletConnectScanner",
-      "destination": "/embedded-wallets/sdk/unity/usage/show-wallet-connect-scanner",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/showWalletUI",
-      "destination": "/embedded-wallets/sdk/unity/usage/show-wallet-ui",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unity/usage/switchChain",
-      "destination": "/embedded-wallets/sdk/unity/usage/switch-chain",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/enableMFA",
-      "destination": "/embedded-wallets/sdk/unreal/usage/enable-mfa",
-      "permanent": true
-    },
-    {
       "source": "/embedded-wallets/sdk/unreal/usage/getEd25519PrivKey",
       "destination": "/embedded-wallets/sdk/unreal/usage/get-ed25519-private-key",
       "permanent": true
@@ -1066,73 +826,8 @@
       "permanent": true
     },
     {
-      "source": "/embedded-wallets/sdk/unreal/usage/launchWalletServices",
-      "destination": "/embedded-wallets/sdk/unreal/usage/launch-wallet-services",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/manageMFA",
-      "destination": "/embedded-wallets/sdk/unreal/usage/manage-mfa",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/ed25519Key",
-      "destination": "/embedded-wallets/sdk/unreal/usage/ed25519-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/privKey",
-      "destination": "/embedded-wallets/sdk/unreal/usage/private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/userInfo",
-      "destination": "/embedded-wallets/sdk/unreal/usage/user-info",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/getIdentityToken",
-      "destination": "/embedded-wallets/sdk/unreal/usage/get-identity-token",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/showCheckout",
-      "destination": "/embedded-wallets/sdk/unreal/usage/show-checkout",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/showSwap",
-      "destination": "/embedded-wallets/sdk/unreal/usage/show-swap",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/showWalletConnectScanner",
-      "destination": "/embedded-wallets/sdk/unreal/usage/show-wallet-connect-scanner",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/showWalletUI",
-      "destination": "/embedded-wallets/sdk/unreal/usage/show-wallet-ui",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/unreal/usage/switchChain",
-      "destination": "/embedded-wallets/sdk/unreal/usage/switch-chain",
-      "permanent": true
-    },
-    {
       "source": "/embedded-wallets/sdk/js/usage/enableMFA",
       "destination": "/embedded-wallets/sdk/js/usage/enable-mfa",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/js/usage/getEd25519PrivKey",
-      "destination": "/embedded-wallets/sdk/js/usage/get-ed25519-private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/js/usage/getPrivKey",
-      "destination": "/embedded-wallets/sdk/js/usage/get-private-key",
       "permanent": true
     },
     {
@@ -1141,28 +836,8 @@
       "permanent": true
     },
     {
-      "source": "/embedded-wallets/sdk/js/usage/launchWalletServices",
-      "destination": "/embedded-wallets/sdk/js/usage/launch-wallet-services",
-      "permanent": true
-    },
-    {
       "source": "/embedded-wallets/sdk/js/usage/manageMFA",
       "destination": "/embedded-wallets/sdk/js/usage/manage-mfa",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/js/usage/ed25519Key",
-      "destination": "/embedded-wallets/sdk/js/usage/ed25519-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/js/usage/privKey",
-      "destination": "/embedded-wallets/sdk/js/usage/private-key",
-      "permanent": true
-    },
-    {
-      "source": "/embedded-wallets/sdk/js/usage/userInfo",
-      "destination": "/embedded-wallets/sdk/js/usage/user-info",
       "permanent": true
     },
     {
