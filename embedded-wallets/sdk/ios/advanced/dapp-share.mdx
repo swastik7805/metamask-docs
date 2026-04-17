@@ -6,23 +6,13 @@ description: 'Web3Auth PnP iOS SDK - dapp share | Embedded Wallets'
 
 ## Embedded Wallets infrastructure at a glance
 
-As described in the [Embedded Wallets infrastructure](/embedded-wallets/infrastructure/), to enable the non custodiality of Web3Auth, we split the private key into multiple parts, that is, into `shares`. These shares are a part of the offchain multisig, where multiple shares are stored in different places and can be used to reconstruct the private key dynamically in the user's frontend application. Typically, there are 3 shares:
-
-1. **`ShareA` is managed by a login service via node operators:** This share is further split amongst a network of nodes and retrieved via conventional authentication flows.
-2. **`ShareB` is stored on the user's device:** Implementation is device and system specific. For example, on mobile devices, the share could be stored in device storage secured via biometrics.
-3. **`ShareC` is a recovery share:** An extra share to be kept by the user, possibly kept on a separate device, downloaded or based on user input with enough entropy (such as, password, security questions, hardware device).
-
-Similar to existing 2FA systems, a user needs to prove ownership of at least 2 out of 3 (2/3) shares, in order to retrieve their private key. This initial setup provides several benefits.
+To enable the non-custodiality of Web3Auth, we split the private key into multiple shares that can be used to reconstruct the private key dynamically in the user's application. For the full explanation of how the shares work to construct the offchain multisig, see the [Embedded Wallets infrastructure](/embedded-wallets/infrastructure/) page.
 
 ## Mobile platform user experience
 
-The user experience on mobile platforms differs from web platforms. This is because the user has to be redirected to a browser where they can login using their socials and then back to the app once they have been successfully authenticated. This user experience shifts the context between two applications, whereas, in the web platforms, the context remains within the browser only.
-
-For the seamless login flow, we need to reconstruct the Shares `A` and `B`. `Share B` is managed by the login service and is provided on successful authentication. Whereas in web platforms, `Share A` is stored in the browser context. We can still store it in the browser context for mobile devices, but this has a few risks like users accidentally deleting browser data. This is a bigger problem in mobile devices since the user doesn't realize that the browser is being used to login within the app and clearing the browser data can cause their logins to fail. Hence, to tackle this issue, Web3Auth issues a dapp share, that is, a backup share that can be stored by the app developer directly within their application and used to reconstruct the private key after successful login by the user.
+On mobile devices, browser storage is not always reliable because users may unknowingly clear their browser data, causing their logins to fail. To address this risk, a dapp share provides a backup share that developers can safely store directly within their application to reconstruct the private key.
 
 ## Dapp share in iOS
-
-Web3Auth issues a dapp share, that is, a backup share that can be stored by the app developer directly within their application and used to reconstruct the private key after successful login by the user.
 
 After a successful login from a user, the user details are returned as a response to the application in mobile devices.
 
